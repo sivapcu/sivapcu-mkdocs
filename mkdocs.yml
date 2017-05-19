@@ -1,1 +1,10 @@
-site_name: Siva Sankar Rajendran alias sivapcu
+site_name: Siva Sankar Rajendran
+pages:
+- Home: 'index.md'
+- Bookmarks:
+  - Online Tools: 'bookmarks/online-tools.md'
+- Design Patterns:
+  - Strategy Pattern: 'design-patterns/strategy-pattern.md'
+  - Observer Pattern: 'design-patterns/observer-pattern.md'
+- About Me:
+  - Profile: 'about-me/profile.md'
