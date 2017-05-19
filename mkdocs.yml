@@ -1,10 +1,52 @@
-site_name: Siva Sankar Rajendran
+site_name: 'Siva Sankar Rajendran'
+site_description: 'My Online Identity'
+site_author: 'sivapcu'
+site_favicon: 'img/favicon.ico'
+
+# Theme
+theme: material
+
+# Options
+extra:
+  logo: 'img/sivapcu.png'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  disqus: 'sivapcu'
+  social:
+    - type: 'github'
+      link: 'https://github.com/sivapcu'
+    - type: 'twitter'
+      link: 'https://twitter.com/sivapcu'
+    - type: 'linkedin'
+      link: 'https://linkedin.com/'
+
+# Google Analytics
+#google_analytics:
+#- 'UA-XXXXXXXX-X'
+#- 'auto'
+
+# Extensions
+markdown_extensions:
+  - pymdownx.tasklist
+  - pymdownx.superfences
+  - admonition
+  - codehilite(linenums=true)
+  - toc(permalink=true)
+
+# Pages
 pages:
-- Home: 'index.md'
-- Bookmarks:
-  - Online Tools: 'bookmarks/online-tools.md'
-- Design Patterns:
-  - Strategy Pattern: 'design-patterns/strategy-pattern.md'
-  - Observer Pattern: 'design-patterns/observer-pattern.md'
-- About Me:
-  - Profile: 'about-me/profile.md'
+  - Home: 'index.md'
+  - Bookmarks:
+    - Online Tools: 'bookmarks/online-tools.md'
+  - Basics:
+    - Data Structures:
+      - Linked List: 'basics/data-structures/linked-list.md'
+    - Design Patterns:
+      - Strategy Pattern: 'basics/design-patterns/strategy-pattern.md'
+      - Observer Pattern: 'basics/design-patterns/observer-pattern.md'
+  - About Me:
+    - Profile: 'about-me/profile.md'
