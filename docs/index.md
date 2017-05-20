@@ -1,17 +1,4 @@
-## TO-DO
-
-### Design Patterns
-
-- [ ] Mercury
-- [x] Venus
-- [x] Earth (Orbit/Moon)
-- [x] Mars
-    - [ ] Siva
-- [ ] Jupiter
-- [ ] Saturn
-- [ ] Uranus
-- [ ] Neptune
-- [ ] Comet Haley
+## Mkdocs Notes for quick reference
 
 ### Code sample
 
@@ -39,16 +26,23 @@ Employees.EmployeeID = '087652';
 
 ### Admonition Sample
 
-!!! note "Siva"
-    this is some text
+!!! Title
+    Note with Title but without quotes
+
+!!! Admonition
+    !!! note "Another Admonition inside"
+        Note with Title but without quotes
+
+!!! note "Title can be customised"
+    Note with Title. Title can be customized for any type of Admonition
 
 !!! summary
+    Summary afasdf afasdf
+
+!!! tldr
     this is some text
 
-!!! tldr ""
-    this is some text
-
-!!! tip "Siva"
+!!! tip
     this is some text
 
 !!! important
@@ -57,7 +51,7 @@ Employees.EmployeeID = '087652';
 !!! hint
     this is some text
 
-!!! success "Siva"
+!!! success
     this is some text
 
 !!! check
@@ -66,7 +60,7 @@ Employees.EmployeeID = '087652';
 !!! done
     this is some text
 
-!!! warning "Siva"
+!!! warning
     this is some text
 
 !!! caution
@@ -75,7 +69,7 @@ Employees.EmployeeID = '087652';
 !!! attention
     this is some text
 
-!!! failure "Siva"
+!!! failure
     this is some text
 
 !!! fail
@@ -84,7 +78,7 @@ Employees.EmployeeID = '087652';
 !!! missing
     this is some text
 
-!!! danger "Siva"
+!!! danger
     this is some text
 
 !!! error
@@ -98,3 +92,13 @@ Employees.EmployeeID = '087652';
 
 !!! cite
     this is some text
+
+### Sample To-DO list
+
+- [x] one
+- [x] two
+- [ ] three
+- [ ] four
+    - [ ] four - a
+    - [x] four - b
+- [ ] Jupiter

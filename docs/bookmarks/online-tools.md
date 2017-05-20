@@ -15,3 +15,10 @@ Following are the list online tools used for prototyping websites and reusing re
 [FreeFormatter](http://www.freeformatter.com/) hosts a suite of online tools which includes several formatters, validators, code minifiers, string escapers, encoders and decoders, message digesters, web resources and more.
 
 ![FreeFormatter](../img/bookmarks/freeformatter.png)
+
+## UML Designing
+
+### WebSequenceDiagrams
+[Web Sequence Diagrams](https://www.websequencediagrams.com/) is an online tool to easily create Sequence diagrams using plain english.
+
+![Web Sequence Diagrams](../img/bookmarks/websequencediagrams.png)
