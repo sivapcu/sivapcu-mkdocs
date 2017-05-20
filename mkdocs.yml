@@ -25,9 +25,9 @@ extra:
       link: 'https://linkedin.com/'
 
 # Google Analytics
-#google_analytics:
-#- 'UA-XXXXXXXX-X'
-#- 'auto'
+google_analytics:
+  - 'UA-99603126-1'
+  - 'auto'
 
 # Extensions
 markdown_extensions:
