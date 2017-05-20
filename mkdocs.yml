@@ -15,7 +15,7 @@ extra:
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
-  disqus: 'sivapcu'
+  disqus: 'sivapcu-github-io'
   social:
     - type: 'github'
       link: 'https://github.com/sivapcu'
@@ -40,13 +40,11 @@ markdown_extensions:
 # Pages
 pages:
   - Home: 'index.md'
+  - Notes:
+    - Data Structures:
+      - Linked List: 'notes/data-structures/linked-list.md'
+    - Design Patterns:
+      - Strategy Pattern: 'notes/design-patterns/strategy-pattern.md'
+      - Observer Pattern: 'notes/design-patterns/observer-pattern.md'
   - Bookmarks:
     - Online Tools: 'bookmarks/online-tools.md'
-  - Basics:
-    - Data Structures:
-      - Linked List: 'basics/data-structures/linked-list.md'
-    - Design Patterns:
-      - Strategy Pattern: 'basics/design-patterns/strategy-pattern.md'
-      - Observer Pattern: 'basics/design-patterns/observer-pattern.md'
-  - About Me:
-    - Profile: 'about-me/profile.md'
