@@ -18,7 +18,22 @@ Following are the list online tools used for prototyping websites and reusing re
 
 ## UML Designing
 
+### Gliffy - An alternative for MS Visio
+[Gliffy Online](http://www.gliffy.com/) or [Gliffy Chrome App](https://chrome.google.com/webstore/detail/gliffy-diagrams/bhmicilclplefnflapjmnngmkkkkpfad?hl=en)
+
+![Gliffy Online](../img/bookmarks/gliffy.png)
+
+![Gliffy Chrome App](../img/bookmarks/gliffy-chrome-app.png)
+
+### Draw.io - An alternative for MS Visio
+[draw.io](https://www.draw.io/) 
+
+![draw.io](../img/bookmarks/draw-io.png)
+
 ### WebSequenceDiagrams
 [Web Sequence Diagrams](https://www.websequencediagrams.com/) is an online tool to easily create Sequence diagrams using plain english.
 
 ![Web Sequence Diagrams](../img/bookmarks/websequencediagrams.png)
+
+
+

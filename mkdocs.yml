@@ -2,6 +2,7 @@ site_name: 'Siva Sankar Rajendran'
 site_description: 'My Online Identity'
 site_author: 'sivapcu'
 site_favicon: 'img/favicon.ico'
+site_url: 'http://sivapcu.github.io'
 
 # Theme
 theme: material
@@ -36,13 +37,18 @@ markdown_extensions:
   - admonition
   - codehilite(linenums=true)
   - toc(permalink=true)
+  - attr_list
 
 # Pages
 pages:
   - Home: 'index.md'
   - Notes:
     - Data Structures:
+      - Boundary Conditions: 'notes/data-structures/boundary-conditions.md'
       - Linked List: 'notes/data-structures/linked-list.md'
+    - Algorithms:
+      - Sorting:
+        - Bubble Sort: 'notes/algorithms/sorting/bubble-sort.md'
     - Design Patterns:
       - Strategy Pattern: 'notes/design-patterns/strategy-pattern.md'
       - Observer Pattern: 'notes/design-patterns/observer-pattern.md'

@@ -24,6 +24,18 @@ WHERE
 Employees.EmployeeID = '087652';
 ```
 
+### Adding an image
+
+![Node](img/notes/data-structures/linked-list/node.png)
+
+### Adding an image With defined Size
+
+![Node](img/notes/data-structures/linked-list/node.png){: width=250px height=250px}
+
+### Adding an image With defined Size and Centered
+
+<center>![Node](img/notes/data-structures/linked-list/node.png){: width=150px height=150px}</center>
+
 ### Admonition Sample
 
 !!! Title
