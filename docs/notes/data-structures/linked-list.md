@@ -96,7 +96,17 @@ Now that, we defined a node, lets use this code to create linkedlist.
 
 ## LinkedList Operations
 ### addFirst
+
+<script src="https://gist.github.com/sivapcu/19c563e458237a46d5cbc7bad6b6b181.js"></script>
+
 ### addLast
+
+#### Without tail reference
+<script src="https://gist.github.com/sivapcu/15bdf38565281d7e04e5a0d193ce5fbc.js"></script>
+
+#### With tail reference
+<script src="https://gist.github.com/sivapcu/60ef2345cbaff472e1e90a465ac7a963.js"></script>
+
 ### removeFirst
 ### removeLast
 ### remove
