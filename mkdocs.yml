@@ -43,14 +43,17 @@ markdown_extensions:
 pages:
   - Home: 'index.md'
   - Notes:
+    - Online Tools: 'blog/online-tools.md'
+    - VS Code Tips: 'blog/vscode-tips.md'
+  - Computer Science:
     - Data Structures:
-      - Boundary Conditions: 'notes/data-structures/boundary-conditions.md'
-      - Linked List: 'notes/data-structures/linked-list.md'
+      - Introduction: 'computer-science/data-structures/introduction.md'
+      - Boundary Conditions: 'computer-science/data-structures/boundary-conditions.md'
+      - Arrays: 'computer-science/data-structures/arrays.md'
+      - Linked List: 'computer-science/data-structures/linked-list.md'
     - Algorithms:
       - Sorting:
-        - Bubble Sort: 'notes/algorithms/sorting/bubble-sort.md'
+        - Bubble Sort: 'computer-science/algorithms/sorting/bubble-sort.md'
     - Design Patterns:
-      - Strategy Pattern: 'notes/design-patterns/strategy-pattern.md'
-      - Observer Pattern: 'notes/design-patterns/observer-pattern.md'
-  - Bookmarks:
-    - Online Tools: 'bookmarks/online-tools.md'
+      - Strategy Pattern: 'computer-science/design-patterns/strategy-pattern.md'
+      - Observer Pattern: 'computer-science/design-patterns/observer-pattern.md'

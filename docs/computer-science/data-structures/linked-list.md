@@ -1,40 +1,24 @@
-## Introduction
+## Linked List
 
-The basic data structure in computer science to hold collection of related data is an `Array`. But mere holding of data, doesn't serve any purpose. Operations like insertion, deletion, searching are always needed. These operations are fine as long as the dataset is small.
+Linked List is non-contiguous data structure created with a collection of element. Each element(generally called as `Nodes`) essentially holds two pieces of information 
 
-### Disadvantages of Arrays
-1. In an **unordered array**, _searching is slow_.
-2. In an **ordered array**, _insertion is slow_.
-3. In both **ordered and unordered arrays**, _deletion is slow_.
-4. They are **never the right size**. Once declared the size of an array can't be changed. They are _either too big or too small_ for your dataset.
-
-## What is Linked List
-
-Since the core concepts like `Node`, `Pointer to Next Node` are generally introduced with Linked List, having solid understanding on `Linked List` makes the understanding of other data structures like `Trees`, `Heaps`, `Graphs` easier. So lets not waste our time and jump into Linked List.
-
-### Node
-
-Nodes are the basic building block of linked list which basically holds two pieces of information i.e.,
-
-1. `data` - value whatever we want to hold
-2. `next` - a pointer to the next value (node) in the list
+1. `data` - value that is supposed to hold in the data structure &
+2. `next` - a pointer/reference to the next node in the list
 
 This can be visualized as shown below.
 
-<center>![Node](../../img/notes/data-structures/linked-list/node.png)</center>
+<center>![Node](../../img/computer-science/data-structures/linked-list/node.png)</center>
 
 Say for example, if our linked list is to hold integers, then the data will be of type integer, for eg, 10 as shown below.
 
-<center>![NodeWithIntValue](../../img/notes/data-structures/linked-list/nodeWithIntValue.png)</center>
+<center>![NodeWithIntValue](../../img/computer-science/data-structures/linked-list/nodeWithIntValue.png)</center>
 
-### Linked List
-
-We can have lots of these nodes, each of them consisting of exactly same thing i,e., 
+We can have lots of these nodes, each of them consisting of exactly 
 
 * data (information we want to hold) and 
 * next (a pointer, pointing to memory location of the next node in the list).
 
-<center>![NodesWithIntValue](../../img/notes/data-structures/linked-list/nodesWithIntValue.png)</center>
+<center>![NodesWithIntValue](../../img/computer-science/data-structures/linked-list/nodesWithIntValue.png)</center>
 
 As you can see, in the above image
 
@@ -42,13 +26,15 @@ As you can see, in the above image
 * Node B `points to` Node C
 * Node C `points to` Node D
 
-So we got our list. Now we should start our list somewhere. By definition, we start our list using a pointer called `head` and `head` points to the first node in the list. And we exit our list when there are no further nodes. In the image below, since there are no nodes after `Node D`, the `next` pointer points to null.
+So we got our list. To navigate through the list, we should start somewhere. By definition, we start our list using a pointer called `head` which points to the first node in the list. And we exit our list when there are no further nodes. In the image below, since there are no nodes after `Node D`, the `next` pointer points to null.
 
-<center>![NodesWithIntValue](../../img/notes/data-structures/linked-list/ll-holding-int.png)</center>
+<center>![NodesWithIntValue](../../img/computer-science/data-structures/linked-list/ll-holding-int.png)</center>
 
-The only way to access a linked list is via the `head` pointer. So, if we have the `head` pointer, it will tell you where the head node(first node) is on the heap. So using the `head` pointer we got two things `head.next` and `head.data`
+Using the `head` pointer we got two things
+1. `head.data` - data in the first node &
+2. `head.next` - a pointer to the next element in the list
 
-<center>![NodesWithIntValue](../../img/notes/data-structures/linked-list/ll-next-pointers-explained.png)</center>
+<center>![NodesWithIntValue](../../img/computer-science/data-structures/linked-list/ll-next-pointers-explained.png)</center>
 
 Considering the image above, as specified earlier, `head` points to `A`
 

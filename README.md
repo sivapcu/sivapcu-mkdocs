@@ -2,6 +2,21 @@
 
 This project is developed using [mkdocs.org](http://mkdocs.org). This is the source project for [sivapcu.github.io](http://sivapcu.github.io). 
 
+## Developer Guide
+1. Install python
+    1. Don't forget to add the python to path
+2. Verify the installation by runing the below commands.
+    1. python --version
+    2. pip --version
+3. Upgrade pip to latest version using the below command
+    1. pip install --upgrade pip
+4. Install mkdocs using the command below
+    1. pip install mkdocs
+5. Install the mkdocs-material theme
+    1. pip install mkdocs-material
+6. Run the application using the below command.
+    1. mkdocs serve
+    
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
