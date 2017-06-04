@@ -36,6 +36,12 @@ Following are the list online tools used for prototyping websites and reusing re
 
 ## Miscellaneous
 
+### Full Screen Capture
+
+[Full Screen Capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl) is a chrome extension to save the whole web page as a single image. Its just awesome. You should try it.
+
+![Full Screen Capture](../img/blog/online-tools/full-screen-capture.png)
+
 ### FreeFormatter
 [FreeFormatter](http://www.freeformatter.com/) hosts a suite of online tools which includes several formatters, validators, code minifiers, string escapers, encoders and decoders, message digesters, web resources and more.
 

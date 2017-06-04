@@ -45,15 +45,24 @@ pages:
   - Notes:
     - Online Tools: 'blog/online-tools.md'
     - VS Code Tips: 'blog/vscode-tips.md'
+    - MkDocs Notes: 'blog/mkdocs-notes.md'
   - Computer Science:
     - Data Structures:
       - Introduction: 'computer-science/data-structures/introduction.md'
       - Boundary Conditions: 'computer-science/data-structures/boundary-conditions.md'
       - Arrays: 'computer-science/data-structures/arrays.md'
       - Linked List: 'computer-science/data-structures/linked-list.md'
+      - Stack: 'computer-science/data-structures/stack.md'
+      - Queue: 'computer-science/data-structures/queue.md'
+      - Tree: 'computer-science/data-structures/tree.md'
+      - Graph: 'computer-science/data-structures/graph.md'
     - Algorithms:
       - Sorting:
         - Bubble Sort: 'computer-science/algorithms/sorting/bubble-sort.md'
+        - Insertion Sort: 'computer-science/algorithms/sorting/insertion-sort.md'
+        - Quick Sort: 'computer-science/algorithms/sorting/quick-sort.md'
     - Design Patterns:
       - Strategy Pattern: 'computer-science/design-patterns/strategy-pattern.md'
       - Observer Pattern: 'computer-science/design-patterns/observer-pattern.md'
+  - Personal:
+    - Running: 'running/running.md'
