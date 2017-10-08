@@ -1,8 +1,8 @@
 site_name: 'Siva Sankar Rajendran'
 site_description: 'My Online Identity'
-site_author: 'sivapcu'
+site_author: 'Siva Sankar Rajendran'
 site_favicon: 'img/favicon.ico'
-site_url: 'http://sivapcu.github.io'
+site_url: 'http://sivasankar-r.github.io'
 
 # Theme
 theme: material
@@ -16,14 +16,14 @@ extra:
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
-  disqus: 'sivapcu-github-io'
+  disqus: 'sivasankar-r-github-io'
   social:
     - type: 'github'
-      link: 'https://github.com/sivapcu'
+      link: 'https://github.com/sivasankar-r'
     - type: 'twitter'
       link: 'https://twitter.com/sivapcu'
     - type: 'linkedin'
-      link: 'https://linkedin.com/'
+      link: 'https://linkedin.com/in/siva-sankar-rajendran'
 
 # Google Analytics
 google_analytics:
