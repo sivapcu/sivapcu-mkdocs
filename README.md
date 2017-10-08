@@ -1,19 +1,19 @@
 # sivapcu-mkdocs
 
-This project is developed using [mkdocs.org](http://mkdocs.org). This is the source project for [sivapcu.github.io](http://sivapcu.github.io). 
+This project is developed using [mkdocs.org](http://mkdocs.org). This is the source project for [sivasankar-r.github.io](http://sivasankar-r.github.io). 
 
 ## Developer Guide
 1. Install python
     1. Don't forget to add the python to path
 2. Verify the installation by runing the below commands.
     1. python --version
-    2. pip --version
-3. Upgrade pip to latest version using the below command
-    1. pip install --upgrade pip
+    2. pip2 --version
+3. Upgrade pip2 to latest version using the below command (not mandatory)
+    1. pip2 install --upgrade pip
 4. Install mkdocs using the command below
-    1. pip install mkdocs
+    1. pip2 install mkdocs
 5. Install the mkdocs-material theme
-    1. pip install mkdocs-material
+    1. pip2 install mkdocs-material
 6. Run the application using the below command.
     1. mkdocs serve
     
@@ -27,7 +27,7 @@ This project is developed using [mkdocs.org](http://mkdocs.org). This is the sou
 ## Deployment
 
 * `mkdocs build` command generates the directory `site`. 
-* Copy and push the contents of this directory to `sivapcu.github.io` repository.
+* Copy and push the contents of this directory to `sivasankar-r.github.io` repository.
 * Visit [sivapcu.github.io](http://sivapcu.github.io) to find the new content deployed automatically.
 
 ## Project layout
