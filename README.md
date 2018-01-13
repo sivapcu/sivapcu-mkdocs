@@ -28,7 +28,7 @@ This project is developed using [mkdocs.org](http://mkdocs.org). This is the sou
 
 * `mkdocs build` command generates the directory `site`. 
 * Copy and push the contents of this directory to `sivasankar-r.github.io` repository.
-* Visit [sivapcu.github.io](http://sivapcu.github.io) to find the new content deployed automatically.
+* Visit [sivasankar-r.github.io](http://sivasankar-r.github.io) to find the new content deployed automatically.
 
 ## Project layout
 

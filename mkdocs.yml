@@ -1,21 +1,27 @@
 site_name: 'Siva Sankar Rajendran'
 site_description: 'My Online Identity'
 site_author: 'Siva Sankar Rajendran'
-site_favicon: 'img/favicon.ico'
 site_url: 'http://sivasankar-r.github.io'
+repo_name: 'sivasankar-r/sivasankar-r-mkdocs'
+repo_url: 'https://github.com/sivasankar-r/sivasankar-r-mkdocs'
 
 # Theme
-theme: material
-
-# Options
-extra:
-  logo: 'img/sivapcu.png'
+theme:
+  name: 'material'
   palette:
     primary: 'indigo'
     accent: 'indigo'
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
+  logo:
+    icon: 'directions_bike'
+  favicon: 'img/logo.svg'
+  feature:
+    tabs: true
+
+# Options
+extra:
   disqus: 'sivasankar-r-github-io'
   social:
     - type: 'github'
@@ -24,6 +30,8 @@ extra:
       link: 'https://twitter.com/sivapcu'
     - type: 'linkedin'
       link: 'https://linkedin.com/in/siva-sankar-rajendran'
+    - type: 'quora'
+      link: 'https://www.quora.com/profile/Siva-Sankar-Rajendran'
 
 # Google Analytics
 google_analytics:
