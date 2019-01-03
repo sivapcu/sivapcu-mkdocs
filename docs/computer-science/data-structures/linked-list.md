@@ -63,7 +63,7 @@ Before discussing further, lets write the basic skeleton of our LinkedList. And 
     1. data - of type E
     2. next - reference(pointer) to the next Node<E>
 
-<script src="https://gist.github.com/sivapcu/0c69001d148c722c9e4b17236dcee0d6.js"></script>
+<script src="https://gist.github.com/sivasankar-r/0c69001d148c722c9e4b17236dcee0d6.js"></script>
 
 Now that, we defined a node, lets use this code to create linkedlist.
 
@@ -80,21 +80,21 @@ Now that, we defined a node, lets use this code to create linkedlist.
     5. remove()
     6. contains()
 
-<script src="https://gist.github.com/sivapcu/a219a6f8f47ffa4efbe0ce16bda0f53e.js"></script>
+<script src="https://gist.github.com/sivasankar-r/a219a6f8f47ffa4efbe0ce16bda0f53e.js"></script>
 
 ## LinkedList Operations
 ### Without tail reference
 #### addFirst
-<script src="https://gist.github.com/sivapcu/19c563e458237a46d5cbc7bad6b6b181.js"></script>
+<script src="https://gist.github.com/sivasankar-r/19c563e458237a46d5cbc7bad6b6b181.js"></script>
 
 #### addLast
-<script src="https://gist.github.com/sivapcu/15bdf38565281d7e04e5a0d193ce5fbc.js"></script>
+<script src="https://gist.github.com/sivasankar-r/15bdf38565281d7e04e5a0d193ce5fbc.js"></script>
 
 #### removeFirst
-<script src="https://gist.github.com/sivapcu/8f782ed011364ad41e9c9006154a676a.js"></script>
+<script src="https://gist.github.com/sivasankar-r/8f782ed011364ad41e9c9006154a676a.js"></script>
 
 #### removeLast
-<script src="https://gist.github.com/sivapcu/c608814fb40c0f543323cdf13fa14beb.js"></script>
+<script src="https://gist.github.com/sivasankar-r/c608814fb40c0f543323cdf13fa14beb.js"></script>
 
 #### remove
 
@@ -104,16 +104,16 @@ Now that, we defined a node, lets use this code to create linkedlist.
 ### With tail reference
 #### addFirst
 This is same as without tail reference
-<script src="https://gist.github.com/sivapcu/19c563e458237a46d5cbc7bad6b6b181.js"></script>
+<script src="https://gist.github.com/sivasankar-r/19c563e458237a46d5cbc7bad6b6b181.js"></script>
 
 #### addLast
-<script src="https://gist.github.com/sivapcu/60ef2345cbaff472e1e90a465ac7a963.js"></script>
+<script src="https://gist.github.com/sivasankar-r/60ef2345cbaff472e1e90a465ac7a963.js"></script>
 
 #### removeFirst
-<script src="https://gist.github.com/sivapcu/de82435404a54906b405110856aac2db.js"></script>
+<script src="https://gist.github.com/sivasankar-r/de82435404a54906b405110856aac2db.js"></script>
 
 #### removeLast
-<script src="https://gist.github.com/sivapcu/7bb099ac0c4905edbdc7fd17c6975bda.js"></script>
+<script src="https://gist.github.com/sivasankar-r/7bb099ac0c4905edbdc7fd17c6975bda.js"></script>
 
 #### remove
 
